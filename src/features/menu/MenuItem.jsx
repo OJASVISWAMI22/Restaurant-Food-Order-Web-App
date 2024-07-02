@@ -28,8 +28,8 @@ function MenuItem({ pizza }) {
       pizzaId: id,
       name: name,
       quantity: 1,
-      unitPrice: unitPrice,
-      totalPrice: unitPrice * 1,
+      unitPrice: unitPrice*10,
+      totalPrice: unitPrice *10,
     };
 
     dispatch(addItem(newItem));
@@ -52,7 +52,7 @@ function MenuItem({ pizza }) {
         </p>
         <div className={'mt-auto flex items-center justify-between'}>
           {!soldOut ? (
-            <p className={'text-sm'}>{formatCurrency(unitPrice)}</p>
+            <p className={'text-sm'}>{formatCurrency(unitPrice*10)}</p>
           ) : (
             <p className={'text-sm font-medium uppercase text-stone-500'}>
               Sold out

@@ -13,7 +13,7 @@ function AppLayout() {
 
       <Header />
 
-      <div className="overflow-scroll sm:mx-0">
+      <div className="overflow-scroll sm:mx-0 " style={{ backgroundColor: '#FAFFFD' }} >
         <main className={'mx-auto max-w-3xl'}>
           <Outlet />
         </main>

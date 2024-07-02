@@ -22,7 +22,7 @@ function CreateUser() {
   return (
     <form onSubmit={handleSubmit}>
       <p className={'mb-4 text-sm text-stone-600 md:text-base'}>
-        👋 Welcome! Please start by telling us your name:
+        👋 Welcome! Please enter your name:
       </p>
 
       <input
@@ -35,7 +35,7 @@ function CreateUser() {
 
       {username !== '' && (
         <div>
-          <Button type={'primary'}>Start ordering</Button>
+          <Button type={'primary'}>Order</Button>
         </div>
       )}
     </form>

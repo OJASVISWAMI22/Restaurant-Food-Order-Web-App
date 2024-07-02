@@ -75,7 +75,7 @@ function CreateOrder() {
 
       <Form method={'POST'}>
         <div className={'mb-5 flex flex-col gap-2 sm:flex-row sm:items-center'}>
-          <label className={'sm:basis-40'}>First Name</label>
+          <label className={'sm:basis-40'}>Your First Name</label>
           <div className={'grow'}>
             <input
               className={'input w-full'}
@@ -88,7 +88,7 @@ function CreateOrder() {
         </div>
 
         <div className={'mb-5 flex flex-col gap-2 sm:flex-row sm:items-center'}>
-          <label className={'sm:basis-40'}>Phone number</label>
+          <label className={'sm:basis-40'}>Enter Your Phone number</label>
           <div className={'grow'}>
             <input
               className={'input w-full'}
@@ -113,7 +113,7 @@ function CreateOrder() {
             'relative mb-5 flex flex-col gap-2 sm:flex-row sm:items-center'
           }
         >
-          <label className={'sm:basis-40'}>Address</label>
+          <label className={'sm:basis-40'}>Enter Delivery Address</label>
           <div className={' grow'}>
             <input
               className={'input w-full'}
@@ -164,7 +164,7 @@ function CreateOrder() {
             value={withPriority}
             onChange={(e) => setWithPriority(e.target.checked)}
           />
-          <label htmlFor="priority">Want to yo give your order priority?</label>
+          <label htmlFor="priority">Want to give your order priority?</label>
         </div>
 
         <div className={'my-1'}>

@@ -4,9 +4,9 @@ import UserName from '../features/user/UserName.jsx';
 
 function Header() {
   return (
-    <header className="font-pizza flex items-center justify-between border-b-2 border-stone-300 bg-yellow-400 px-4 py-3 uppercase sm:px-6">
+    <header className="font-pizza flex items-center justify-between border-b-2 border-stone-300 bg-[#EF476F] px-4 py-3 uppercase sm:px-6">
       <Link to={'/'} className={'tracking-widest'}>
-        Fast React Pizza Co.
+        Swami Pizza Co.
       </Link>
       <SearchOrder />
       <UserName />
