@@ -1,3 +1,4 @@
+
 import { formatCurrency } from '../../utils/helpers.js';
 import DeleteItem from './DeleteItem.jsx';
 import UpdateItemQuantity from './UpdateItemQuantity.jsx';

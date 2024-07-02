@@ -9,6 +9,7 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
       <div
         className={'flex items-center justify-between gap-4 text-sm font-bold'}
       >
+        
         <p>
           <span>{quantity}&times;</span> {name}
         </p>

@@ -1,3 +1,4 @@
+
 import {formatCurrency} from '../../utils/helpers.js';
 import Button from '../../ui/Button.jsx';
 import {addItem, getCurrentQuantityById} from '../cart/cartSlice.js';

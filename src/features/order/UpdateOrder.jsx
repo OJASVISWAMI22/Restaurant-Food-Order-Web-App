@@ -10,6 +10,7 @@ function UpdateOrder({ order }) {
       <Button type={'primary'}>Make Priority</Button>
     </fetcher.Form>
   );
+  
 }
 
 export default UpdateOrder;
